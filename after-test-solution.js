@@ -23,6 +23,7 @@
 
 function convertTimeToWords(time) {
   const numToStringObject = {
+    0: 'twelve',
     1: 'one',
     2: 'two',
     3: 'three',
